@@ -17,7 +17,8 @@
 }
 
 #index {
-    height:30vh;
+    height:90vh;
+    width: 90vw;
     text-align: center;
     background-color: black;
     color: #790400;
@@ -27,13 +28,9 @@
 }
 
 
-#index button {
-    border: none;
-    background-color: #790400;
+#index-body {
     border-radius: 50px;
+    background-color: #790400;
+    margin: 10px;
     color: black;
-    box-shadow: 0px 0px 10px 10px #790400
-
 }
-
-

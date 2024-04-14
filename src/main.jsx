@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Homepage from './Routes/Homepage'
+import Articles from './Routes/Articles'
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -15,8 +16,8 @@ const router = createBrowserRouter([
     element: <Homepage />,
   },
   {
-    path: "/about",
-    element: <div>About</div>,
+    path: "/articles",
+    element: <Articles />,
   }
 ]);
 

@@ -6,24 +6,21 @@ export default function Homepage() {
 		<>
 			<Navbar />
 			<div className="container-fluid" id="background">
-				<div id="card" className="shadow-lg d-flex-inline">
-					<div className="d-flex row" id="card-heading">
-						<h1>MARTYRDOM</h1>
+				<div id="index" className="card">
+					<div className="card-header">
+						<h1>OATH OF THE MARTYR</h1>
 					</div>
-					<div id="card-body" className="d-flex-inline justify-content-center">
-						<div id="card-description">
-							<p>
-								Are you ready to die for what you believe in?
-							</p>
-						</div>
-						<div id="card-buttons" className="d-flex justify-content-evenly">
-							<button type="button" id="card-button">
-								Yes
-							</button>
-							<button id="card-button">
-								No
-							</button>
-						</div>
+					<div className="card-body">
+						<p>Are you willing to die for your beliefs?</p>
+					</div>
+					<div className="card-footer d-flex justify-content-evenly">
+						<a href="/articles"><button type="button" >
+							Yes
+						</button></a>
+						<button type="button" >
+							No
+						</button>
+						
 					</div>
 				</div>
 			</div>
