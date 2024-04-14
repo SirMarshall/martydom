@@ -1,8 +1,8 @@
-# React + Vite
+## Colors
+1f2041
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<palette>
+  <color name="Space cadet" hex="1f2041" r="31" g="32" b="65" />
+  <color name="English Violet" hex="4b3f72" r="75" g="63" b="114" />
+  <color name="Sunglow" hex="ffc857" r="255" g="200" b="87" />
+</palette>
