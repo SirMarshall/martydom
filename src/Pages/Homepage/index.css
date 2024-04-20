@@ -11,8 +11,8 @@
 #card {
     margin: 1rem;
     padding: 2rem;
-    width: 46rem;
-    height: 40rem;
+    width: 80vw;
+    height: 50vh;
     background-color: #ff4b4b;
     display: flex;
     flex-direction: column;
@@ -20,8 +20,12 @@
 }
 
 #card-header h1 {
-    font-size: 5rem;
+    font-size: 2em;
     font-family: 'oe-gothic-pixel';
     -webkit-font-smoothing : none;
+}
+
+#card-body {
+    font-family: 'regular-pixel';
 }
 
