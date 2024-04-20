@@ -1,9 +1,8 @@
+import './main.css'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Homepage from './Routes/Homepage'
-import Articles from './Routes/Articles'
-import "bootstrap/dist/css/bootstrap.min.css";
-import 'bootstrap-icons/font/bootstrap-icons.css';
+import Homepage from './Pages/Homepage'
+import Articles from './Pages/Articles'
 
 import {
   createBrowserRouter,
