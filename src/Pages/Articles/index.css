@@ -4,16 +4,6 @@
     width: 100vw;
 }
 
-#navbar {
-    background-color: #141619;
-    color: #ff4b4b;
-    height: 10vh;
-    width: 100vw;
-    font-family: "oe-gothic-pixel";
-    padding: 1rem;
-    font-size: 2rem;
-}
-
 .row {
     height: 100%;
     width: 100%;

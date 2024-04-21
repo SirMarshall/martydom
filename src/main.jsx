@@ -3,6 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Homepage from './Pages/Homepage'
 import Articles from './Pages/Articles'
+import Article from './Pages/Article'
 
 import {
   createBrowserRouter,
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/articles",
     element: <Articles />,
+  },
+  {
+    path: "/articles/:title",
+    element: <Article />,
   }
 ]);
 

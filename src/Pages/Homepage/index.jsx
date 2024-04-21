@@ -1,5 +1,6 @@
 import "./index.css";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Homepage() {
   const navigate = useNavigate();
@@ -13,6 +14,14 @@ export default function Homepage() {
     alert("Good! you shouldn't give random sketchy websites your e-mail..");
     navigate("/articles");
   };
+
+  useEffect(() => {
+    if (localStorage.getItem('visitedBefore')) {
+      navigate("/articles");
+    } else {
+      localStorage.setItem('visitedBefore', 'true');
+    }
+  }, [navigate]);
 
   return (
     <>
