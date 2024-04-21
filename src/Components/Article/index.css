@@ -1,0 +1,17 @@
+#article-drawer {
+    padding: 2rem;
+}
+
+#article-graphic {
+    padding-right: 2rem;
+}
+
+#article-title {
+    font-family: "oe-gothic-pixel";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#article-subtitle {
+    font-family: "regular-pixel"
+}

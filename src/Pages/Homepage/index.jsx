@@ -1,11 +1,23 @@
 import "./index.css";
-//Bootstrap 5.3.0
+import { useNavigate } from "react-router-dom";
 
 export default function Homepage() {
+  const navigate = useNavigate();
+
+  const handleSubscribeClick = () => {
+    alert("Don't give random sketchy ass websites your e-mail.");
+    navigate("/articles");
+  };
+
+  const handleNoThanksClick = () => {
+    alert("Good! you shouldn't give random sketchy websites your e-mail..");
+    navigate("/articles");
+  };
+
   return (
     <>
-      <div id="background">
-        <div className="pixel-corners" id="card">
+      <div id="oath-background">
+        <div className="col-10 col-md-8 col-lg-4 pixel-corners" id="card">
           <div className="text-center" id="card-header">
             <h1>Oath of The Martyr</h1>
           </div>
@@ -18,21 +30,18 @@ export default function Homepage() {
               of subjects. You will find the breadth of these documents below,
               others will come in time.
             </p>
-            <div className="text-center" id="typical-form">
+            <div className="d-flex align-content-center" id="typical-form">
               <form>
-                <label htmlFor="email">Stay updated with new articles:</label>
+                <p>Stay updated with new articles?</p>
                 <input
-                  type="email"
-                  id="email"
-                  name="email"
                   placeholder="Enter your email"
                 />
-                <button type="submit" onClick={() => alert("Fucking idiot! Don't give random sketchy ass websites your e-mail.")}>
+                <button type="submit" onClick={handleSubscribeClick}>
                   Subscribe
                 </button>{" "}
-				<button type="submit" onClick={() => alert("Finally, someone intelligent.")}>
+                <button type="submit" onClick={handleNoThanksClick}>
                   No Thanks
-                </button>{" "}
+                </button>
               </form>
             </div>
           </div>

@@ -1,4 +1,4 @@
-#oath-background {
+#background {
     width: 100vw;
     height: 100vh;
     background-color: #141619;
@@ -17,7 +17,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#card-header h1 {
+#card-header {
     font-size: 2em;
     font-family: 'oe-gothic-pixel';
     -webkit-font-smoothing : none;
@@ -25,13 +25,4 @@
 
 #card-body {
     font-family: 'regular-pixel';
-}
-
-#typical-form {
-    display: flex;
-    justify-content: center;
-}
-
-#typical-form input {
-    margin-right: 1vw;
 }
