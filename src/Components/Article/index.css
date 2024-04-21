@@ -15,3 +15,7 @@
 #article-subtitle {
     font-family: "regular-pixel"
 }
+
+#article {
+    border: 1px solid #141619;
+}

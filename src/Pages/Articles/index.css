@@ -1,19 +1,17 @@
-h1 {
-    font-family: "oe-gothic-pixel"
-}
-
-p {
-    font-family: "regular-pixel"
-}
-
 #background {
     background-color: #ff4b4b;
+    height: 100vh;
+    width: 100vw;
 }
 
 #navbar {
     background-color: #141619;
     color: #ff4b4b;
-    width: 100%;
+    height: 10vh;
+    width: 100vw;
+    font-family: "oe-gothic-pixel";
+    padding: 1rem;
+    font-size: 2rem;
 }
 
 .row {
@@ -23,13 +21,4 @@ p {
 
 #article-drawer {
     padding: 2rem;
-}
-
-#article-graphic {
-    padding-right: 2rem;
-}
-
-#article-title {
-    font-size: 2rem;
-    font-weight: bold;
 }
