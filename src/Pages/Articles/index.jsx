@@ -15,7 +15,7 @@ export default function Articles() {
     }, []);
     return (
         <div id="background" className="d-flex flex-column justify-content-start">
-           <Navbar title="Articles" />
+            <Navbar title="Articles" />
             <div id="article-drawer" className="col-12 d-flex flex-column justify-content-start">
                 {articles.map((article, index) => (
                     <Article

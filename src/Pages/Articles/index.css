@@ -10,5 +10,7 @@
 }
 
 #article-drawer {
-    padding: 2rem;
+    padding: 4rem;
+    width: 100vw;
+    height: 90vh;
 }

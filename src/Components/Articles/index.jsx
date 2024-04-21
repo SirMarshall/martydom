@@ -9,10 +9,7 @@ export default function Article({ graphic, title, subtitle }) {
 	};
 
 	return (
-		<div
-			id="article"
-			className="d-flex flex-row align-content-start justify-content-start pixel-border"
-		>
+		<div id="article" className="pixel-corners d-flex flex-row align-content-start justify-content-start pixel-border">
 			<div id="article-graphic" onClick={(viewArticle)}>
 				{graphic}
 			</div>
