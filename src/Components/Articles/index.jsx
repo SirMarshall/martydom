@@ -10,8 +10,8 @@ export default function Article({ graphic, title, subtitle }) {
 
 	return (
 		<div id="article" className="pixel-corners d-flex flex-row align-content-start justify-content-start pixel-border">
-			<div id="article-graphic" onClick={(viewArticle)}>
-				{graphic}
+			<div id="article-graphic" className="d-flex align-content-center" onClick={(viewArticle)}>
+				<i class={'ri-' + graphic}></i>
 			</div>
 			<div id="article-copy">
 				<div id="article-title">

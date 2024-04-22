@@ -16,11 +16,11 @@ export default function Articles() {
     return (
         <div id="background" className="d-flex flex-column justify-content-start">
             <Navbar title="Articles" />
-            <div id="article-drawer" className="col-12 d-flex flex-column justify-content-start">
+            <div id="article-drawer" className="col-12 d-flex flex-column justify-content-center">
                 {articles.map((article, index) => (
                     <Article
                         key={index}
-                        graphic={<img src={article.graphic} alt="Article graphic" />}
+                        graphic={article.graphic}
                         title={article.title}
                         subtitle={article.subtitle}
                     />

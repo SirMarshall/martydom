@@ -14,3 +14,10 @@
     width: 100vw;
     height: 90vh;
 }
+
+.back-button {
+    text-decoration: none; /* Removes underline */
+    outline: none; /* Removes highlight */
+    color:#ff4b4b;
+    font-family: "regular-pixel";
+  }

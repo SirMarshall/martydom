@@ -1,15 +1,18 @@
 #article-graphic {
-    padding-right: 2rem;
+    color: #ff4b4b;
+    font-size: 5rem;
+    align-items: center;
+    padding-right: 1rem;
 }
 
 #article-title h1 {
     font-family: "oe-gothic-pixel";
-    font-size: 6vh;
+    font-size: 2rem;
 }
 
 #article-subtitle {
     font-family: "regular-pixel";
-    font-size: 3vh;
+    font-size: 1rem;
 }
 
 #article {
@@ -18,5 +21,4 @@
     padding: 1rem;
     margin: 1rem;
     width: 100%;
-    height: 100%;
 }
